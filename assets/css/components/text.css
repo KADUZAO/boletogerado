@@ -1,0 +1,54 @@
+.text__span {
+    font-family: var(--font--family-regular);
+}
+
+.text__title {
+    font-family: var(--font--family-bold);
+    font-size: var(--font--size-title);
+    width: fit-content;
+    margin: auto;
+    border-radius: 7px;
+    line-height: 35px;
+}
+
+.text__title:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.text__text {
+    font-family: var(--font--family-medium);
+    font-size: var(--font--size-text);
+}
+
+.text__subtitle {
+    font-family: var(--font--family-medium);
+    font-weight: var(--font--size-subtitle);
+}
+
+.text__pink {
+    color: var(--color-pink);
+}
+
+.text__yellow {
+    color: var(--color-yellow);
+}
+
+.text__white {
+    color: var(--color-white);
+}
+
+main > p strong {
+    color: var(--color-yellow);
+}
+
+.text__footer {
+    font-family: var(--font--family-footer);
+}
+
+.text__left {
+    text-align: left;
+}
+
+.text__justify {
+    text-align: justify;
+}

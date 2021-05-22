@@ -1,0 +1,22 @@
+.card__pink {
+    background-color: var(--color-pink);
+}
+
+.card__pink-span {
+    box-shadow: 0 0px 13px var(--color-pink);
+    padding: 0.7rem 0;
+}
+
+.card__pink-text {
+    padding: 0.5rem;
+}
+
+.card__white {
+    background-color: var(--color-white);
+    padding: 0.8rem;
+}
+
+.card__white-text {
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/components/cards.css">
+    <link rel="stylesheet" href="../assets/css/components/text.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bg"></div>
+    <header class="card__pink card__pink-span">
+        <div class="container">
+            <p class="text__span text__white">CUIDADO: NÃO FECHE ESTÁ PÁGINA AINDA...</p>
+        </div>
+    </header>
+    <main class="container">
+        <p class="text__title card__pink card__pink-text">OPS, VOCÊ AINDA NÃO</p><br>
+        <p class="text__title card__pink card__pink-text">GARANTIU 100% A SUA</p><br>
+        <p class="text__title card__pink card__pink-text">VAGA...</p>
+        <div class="card__white card__white-text">
+            <p class="text__text"><strong class="text__pink">ATENÇÃO:</strong> essa turma só tem 100 vagas e a sua só estará 100% garantida após o pagamento do seu boleto. Para não perder uma das vagas, pague o mais rápido que puder. Além disso, não pagar o boleto gera restrições em nosso site e você não terá outra oportunidade de participar do programa.</p>
+        </div>
+        <p class="text__subtitle" style="color: var(--color-white);margin-top: 2rem;"><strong>SÓ HOJE:</strong> Pague o seu boleto online ou na casa lotérica mais próxima <strong>AINDA HOJE e receba ACESSO A UM MÓDULO ULTRA SECRETO!!</strong></p>
+        <p class="text__subtitle" style="color: var(--color-white);margin-top: 2rem;"><strong>PAGUE NO CARTÃO E TENHA O ACESSO AGORA!</strong></p>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <p class="text__subtitle text__footer text__left" style="color: var(--color-white);letter-spacing: 4px;">PIRATARIA É <strong style="color: #ff0;">CRIME</strong></p>
+                <p class="text__text text__footer text__justify" style="color: var(--color-white);">A venda do THE LIST só pode ser realizada através deste site, registrado em nome de Kreator LTDA. Qualquer outro site onde você encontre este programa é uma FALSIFICAÇÃO e vai contra as leis. Evite piratarias e recuse conteúdos ilegais ou pirateados. NÃO adquira programas parecidos e que não são baseados em anos de estudo da psicologia comportamental. Não nos responsabilizamos por compras realizadas em outros sites.</p>
+            </div>
+            <div class="logo">
+                <img src="../assets/img/logo.png.png" alt="Segredo da Atração">
+                <div class="copy">
+                    <p class="text__footer" style="color: var(--color-white);">Copyright 2021 - Kreator LTDA ®️<br>Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <style>
+        footer {
+            background-color: #0000006e;
+        }
+        footer .container {
+            flex-direction: row;
+            margin-top: 3rem;
+            padding: 2rem 0;
+            justify-content: space-around;
+        }
+        footer .container .text{
+            width: 50%;
+        }
+        footer .container .text .text__text{
+            font-size: 0.8rem;
+            margin-top: 0.6rem;
+        }
+        footer .container .logo .copy p {
+            font-size: 0.8rem;
+        }
+        footer img {
+            width: 8rem;
+        }
+
+        @media screen and (max-width: 480px) {
+            .text__title {
+                line-height: 17px;
+            }
+            footer .container {
+                flex-direction: column;
+            }
+            footer .container .text{
+            width: 100%;
+            }
+            footer .container .logo {
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</body>
+</html>
